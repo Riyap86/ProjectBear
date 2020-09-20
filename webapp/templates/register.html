@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Create Account
+{% endblock %}
+
+{% block main %}
+<div class="sign-up-form">
+    <form action="/register" method="post">
+        <input autocomplete="off" autofocus class="input-box" name="username" placeholder="Username" type="text">
+        <input class="input-box" name="password" placeholder="Password" type="password">
+        <input class="input-box" name="confirmation" placeholder="Password (again)" type="password">
+        <button class="btn btn-info" type="submit">Create Account</button>
+    </form>
+</div>
+{% endblock %}

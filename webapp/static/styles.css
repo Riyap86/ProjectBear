@@ -1,0 +1,189 @@
+body {
+    /*Background is light gray*/
+    background-color:#7FB1C7;
+    font-family: georgia;
+    /*background-image: url('/static/snow1.jpg');*/
+}
+
+h1 {
+    padding: 20px;
+    /*Text is dark blue*/
+    color: #4F5D75;
+    text-shadow: 1px 1px;
+}
+
+p {
+    padding: 10px;
+    /*Text is dark blue*/
+    color: #4F5D75;
+    font-size: 20px;
+
+}
+
+
+.tdImg {
+    padding: 10px 50px 10px 50px;
+}
+
+
+.place {
+    width: 19%;
+}
+
+main
+{
+    /* scroll horizontally as needed */
+    overflow-x: auto;
+    background-color:#7FB1C7;
+    padding: 30px;
+
+    /* center contents */
+    text-align: left;
+}
+
+main table
+{
+    /* left-align contents */
+    text-align: left;
+    width:100%;
+    height:100%;
+    /*border: 1px solid black;*/
+    border-collapse: collapse;
+    border-spacing: 5px;
+
+}
+
+main th, td {
+    /*border: 1px solid black;*/
+    text-align: center;
+    border-collapse: collapse;
+    vertical-align:top;
+    padding: 10px;
+}
+
+main th {
+    text-align: center;
+}
+
+#t01 tr:nth-child(even) {
+    /*grey*/
+  background-color: #CECCCC;
+}
+
+#t01 tr:nth-child(odd) {
+    /*lighter coral*/
+  background-color: #cfb5b4;
+}
+
+#t01 th {
+  color: white;
+  /*Coral*/
+  background-color: #bd706d;
+}
+
+main tfoot
+{
+    /* boldface tables' footers */
+    font-weight: bold;
+}
+
+a {
+    color: black;
+}
+
+main .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+nav .navbar-brand
+{
+    /* size for brand */
+    font-size: xx-large;
+}
+
+/* colors for brand */
+nav .navbar-brand .blue
+{
+    color: #4F5D75;
+}
+nav .navbar-brand .coral
+{
+    color: #bd706d;
+}
+nav .navbar-brand .black
+{
+    color: #ffffff;
+}
+
+.sign-in-form
+{
+	width: 300px;
+	box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+	background: #fff;
+	padding: 20px;
+	margin: 8% auto 0;
+	text-align: center;
+}
+
+.sign-in-form h1
+{
+	color: #1c8adb;
+	margin-bottom: 30px;
+}
+
+.input-box
+{
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px 0;
+	width: 100%;
+	border: 1px solid #999;
+	outline: none;
+}
+
+button
+{
+	color: #0000FF;
+	width: 100%;
+	padding: 10px;
+	border-radius: 20px;
+	font-size: 15px;
+	margin: 10px 0;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.signin-btn
+{
+	background-color: #1c8adb;
+}
+
+.sign-up-form
+{
+	width: 300px;
+	box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+	background: #fff;
+	padding: 20px;
+	margin: 8% auto 0;
+	text-align: center;
+}
+
+.sign-up-form h1
+{
+	color: #1c8adb;
+	margin-bottom: 30px;
+}
+
+
+.signup-btn
+{
+	background-color: #0000FF;
+}
+
+
